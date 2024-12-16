@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Malva Pudding | Layla's Indian Cuisine</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="fontAwesome/css/all.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    
+    <body class="body-recipes">
+        <div  class="header">
+            <a href="dessert.html">
+                <i class="fas fa-arrow-left"></i>
+            </a>
+            <img src="images/logo-text.png">
+        </div>
+        <div id="food">
+            <div class="food-details">
+                <img src="images/malva-pudding.jpeg">
+                <h1 class="welcome">Malva Pudding</h1>
+                <div class="food-details-info">
+                    <p><b>Price: </b>R20</p>
+                    <p><b>Serving Size: </b>1 serving</p>
+                </div>
+                <div class="food-details-description">
+                    <p>Savor the comforting sweetness of malva pudding, a South African favorite with a golden, spongy texture and a rich, caramelized flavor. Infused with the subtle tang of apricot jam, this warm dessert is soaked in a luscious cream sauce that makes each bite moist and decadent. Perfectly paired with whipped cream or a scoop of vanilla ice cream, malva pudding offers a heartwarming finish to your meal.</p>
+                </div>
+                <br/>
+                <h3 class="add-ons">Extras</h3>
+                <div class="sauce-container">
+                    <!-- Sauce 1 -->
+                    <div class="sauce-item">
+                        <img src="images/ice-cream.jpg" alt="Vanilla Ice-cream" class="sauce-image">
+                        <p class="sauce-name">Vanilla Ice-cream</p>
+                        <input type="checkbox" id="ice-cream" name="sauce" value="Ice-cream">
+                        <label for="ice-cream">Select</label>
+                    </div>
+                        
+                    <!-- Sauce 2 -->
+                    <div class="sauce-item">
+                        <img src="images/custard.jpg" alt="Custard" class="sauce-image">
+                        <p class="sauce-name">Custard</p>
+                        <input type="checkbox" id="custard" name="sauce" value="Custard">
+                        <label for="custard">Select</label>
+                    </div>
+                    
+                    <!-- Sauce 3 -->
+                    <div class="sauce-item">
+                        <img src="images/whipped-cream.jpg" alt="Whipped Cream" class="sauce-image">
+                        <p class="sauce-name">Whipped Cream</p>
+                        <input type="checkbox" id="cream" name="sauce" value="cream">
+                        <label for="cream">Select</label>
+                    </div>
+                </div>
+                <br/>
+                <h3 class="add-ons">Extra Requests</h3>
+                <textarea placeholder="Type your message here..."></textarea>
+                <br/>
+                <a class="place-order" href="orderplaceddessert.html"><b>Place Order</b></a>
+            </div>
+        </div>
+    </body>
+</html>
